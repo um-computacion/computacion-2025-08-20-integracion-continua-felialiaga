@@ -7,4 +7,4 @@ class TestPrueba(unittest.TestCase):
         self.assertEqual(suma(2, 3), 5)
 
 if __name__ == "__main__":
-    print(suma(2, 3))
+    print(unittest.main())
